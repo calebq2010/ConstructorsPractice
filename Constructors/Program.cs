@@ -6,10 +6,15 @@ using System.Threading.Tasks;
 
 namespace Constructors
 {
+
     class Program
     {
         static void Main(string[] args)
         {
+            var customer = new Customer(10, "Caleb");
+
+            Console.WriteLine(customer.Id);
+            Console.WriteLine(customer.Name);
         }
     }
 }
